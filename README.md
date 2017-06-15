@@ -7,12 +7,7 @@ Course code for Building Scalable Apps with Google App Engine in Python class
 ### Google Datastore
 * A paper on BigTable : [http://research.google.com/archive/bigtable.html]
 
-On a high level Datastore functions the following way - Kinds, Entities, Properties
-
-
-1. Kinds - Profile, Conference
-2. Entities - (group of properties in each kind)
-3. Properties - name, startDate etc
+On a high level, Google Datastore functions the following way - Kinds, Entities, Properties
 
 
 | Profile                    |
@@ -33,3 +28,8 @@ On a high level Datastore functions the following way - Kinds, Entities, Propert
 | startDate: Feb 15th     |
 | endDate: Feb 19th       |
 | city: Juneau            |
+
+
+1. Kinds - The Profile, Conference Columns
+2. Entities - (group of properties in each Kind)
+3. Properties - name, startDate etc. in each Entity
